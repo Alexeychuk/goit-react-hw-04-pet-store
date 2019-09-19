@@ -1,0 +1,44 @@
+.PetWrapper {
+  padding: 0 10%;
+  color: rgb(47, 47, 47);
+}
+
+.returnButton {
+  color: #ffffff;
+  background-color: rgb(47, 47, 47);
+  padding: 10px 30px;
+  border: none;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.PetWrapper h3 {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.stats {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.statsItem {
+  flex: 30% 0 0;
+  margin-right: 20px;
+}
+
+.statsItem p {
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.stats img {
+  max-width: 100%;
+  height: auto;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 24px;
+}

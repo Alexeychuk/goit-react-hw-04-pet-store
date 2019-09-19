@@ -1,0 +1,16 @@
+/* <div className="About">
+    <p className="AboutParag"> */
+
+.About {
+  padding: 10px 100px 0;
+  color: rgb(47, 47, 47);
+}
+
+.headline {
+  font-size: 30px;
+}
+
+.AboutParag {
+  padding: 20px 0;
+  font-size: 23px;
+}

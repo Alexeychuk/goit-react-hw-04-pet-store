@@ -1,0 +1,40 @@
+.PetsWrapper {
+  padding: 0 150px;
+}
+
+.headline {
+  font-size: 30px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.PetsList {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+}
+
+.PetsListItem {
+  flex: 0 0 25%;
+  padding: 2%;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.ItemImage {
+  width: 100%;
+  max-height: 150px;
+  object-fit: cover;
+}
+
+.ItemHeadline {
+  text-decoration: none;
+  color: rgb(47, 47, 47);
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+}

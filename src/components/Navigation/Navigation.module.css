@@ -1,0 +1,35 @@
+/* <div className="navigation">
+      <ul className="navigation-list">
+        <li className="navigation-item">
+          <NavLink to="/" className="link" activeClassName="active">
+            Home
+          </NavLink>
+        </li> */
+
+.navigation {
+  background-color: rgb(47, 47, 47);
+  margin-bottom: 20px;
+}
+
+.navigationList {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  padding: 0 20px;
+}
+
+.navigationItem {
+  color: white;
+}
+
+.link {
+  line-height: 70px;
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+.active {
+  color: rgb(136, 44, 1);
+}
