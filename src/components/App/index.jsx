@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Redirect, Route } from 'react-router-dom';
 import styles from './App.module.css';
 import Navigation from '../Navigation/Navigation';
 
@@ -16,7 +16,7 @@ const App = () => (
       <Route path="/about" component={AboutPage} />
       <Route path="/pets/:id" component={PetPage} />
       <Route path="/pets" component={PetsPage} />
-      <Route component={HomePage} />
+      <Redirect to="/" component={HomePage} />
     </Switch>
   </div>
 );
